@@ -1,3 +1,5 @@
+import './index.css'
+import TodoList from "./components/TodoList"
 
 
 function App() {
@@ -5,7 +7,8 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="todo-app">
+        <TodoList />
    
       </div>
     
