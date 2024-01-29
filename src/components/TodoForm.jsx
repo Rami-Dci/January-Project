@@ -7,7 +7,7 @@ const TodoForm = (props) => {
     const inputRef = useRef(null);
 
     useEffect(() => {
-         inputRef.current.focus(); // we focus every render, no empty array
+         inputRef.current.focus(); 
     });
 
 

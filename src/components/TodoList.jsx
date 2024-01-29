@@ -26,7 +26,7 @@ function TodoList() {
 
         }
 
-        // item: every endivial item of the array 
+
 
         setTodos(prevState => prevState.map(item => (item.id === todoId ? newValue : item)))
 
@@ -59,7 +59,6 @@ function TodoList() {
     <div>
       <h1>Plan for Today</h1>
 
-      {/* passing the props  argument function adtodo */}
 
       <TodoForm onSubmit= {addTodo}  />   
       <Todo 
